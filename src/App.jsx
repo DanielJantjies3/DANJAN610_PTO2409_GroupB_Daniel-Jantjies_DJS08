@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from "./Pages/Home" 
 import About from "./Pages/About" 
+import Vans from './Pages/vans'
 
 
 import "/server"
@@ -13,15 +14,15 @@ function App() {
       <header>
         <Link to="/">#VANLIFE</Link>
         <nav>
-          <Link to="/about">About</Link>
-          <Link to="/vans">Vans</Link>
+          <Link to="/About">About</Link>
+          <Link to="/Vans">Vans</Link>
         </nav>
       </header>
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />}/>
-        <Route path="/vans" element={<Vans />} />
+        <Route path="/About" element={<About />}/>
+        <Route path="/Vans" element={<Vans />} />
       </Routes>
     </BrowserRouter>
   )
