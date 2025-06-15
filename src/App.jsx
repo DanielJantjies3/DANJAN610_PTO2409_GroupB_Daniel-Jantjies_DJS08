@@ -4,7 +4,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About" 
 import Vans from './Pages/vans'  
 
-import "/server"
+import '/server'
 
 function App() {
   return (
