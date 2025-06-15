@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from "./Pages/Home" 
 import About from "./Pages/About" 
 
+
+import "./server"
+
 function App() {
   return (
     <BrowserRouter>
