@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Main layout routes */}
+      
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="vans/:id" element={<VanDetail />} />
         </Route>
         
-        {/* Host routes - separate layout */}
+        
         <Route path="host" element={<HostLayout />}>
           <Route index element={<Dashboard />} />
           <Route path="income" element={<Income />} />
