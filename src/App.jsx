@@ -10,14 +10,14 @@ import "/server"
 function App() {
   return (
     <BrowserRouter>
-    
-      <header>
-        <Link to="/">#VANLIFE</Link>
-        <nav>
-          <Link to="/About">About</Link>
-          <Link to="/Vans">Vans</Link>
-        </nav>
-      </header>
+
+<header>
+  <Link className="site-logo" to="/">#VANLIFE</Link> 
+  <nav>
+    <Link to="/About">About</Link>
+    <Link to="/vans">Vans</Link>
+  </nav>
+</header>
       
       <Routes>
         <Route path="/" element={<Home />} />

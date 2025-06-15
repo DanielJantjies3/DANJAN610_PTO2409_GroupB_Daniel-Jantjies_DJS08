@@ -5,3 +5,4 @@ export default function Vans() {
         <h1>Vans page goes here 🚐</h1>
     )
 }
+
