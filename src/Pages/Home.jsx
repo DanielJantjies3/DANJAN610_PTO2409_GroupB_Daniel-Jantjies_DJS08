@@ -8,5 +8,5 @@ export default function Home() {
             <p>Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect roadtrip</p>
             <Link to="vans">Find your van</Link>
         </div>
-    )
-};
+    );
+}
