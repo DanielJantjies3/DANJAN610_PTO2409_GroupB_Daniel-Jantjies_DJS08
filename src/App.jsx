@@ -7,6 +7,7 @@ import VanDetail from "./Pages/Vans/VanDetail"
 import Dashboard from './Pages/Host/Dashboard'
 import Income from './Pages/Host/Income'
 import Reviews from './Pages/Host/Reviews'
+import HostVans from './Pages/Host/HostVans'
 import Layout from '../components/Layout'
 import HostLayout from '../components/HostLayout'
 
@@ -24,6 +25,7 @@ function App() {
             <Route index element={<Dashboard />} />
             <Route path="income" element={<Income />} />
             <Route path="reviews" element={<Reviews />} />
+            <Route path="vans" element={<HostVans />} />
           </Route>
         </Route>
       </Routes>
